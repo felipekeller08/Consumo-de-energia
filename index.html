@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinergreen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="titulo">
+    <h1>Consumo de energia - Sinergreen</h1>
+</div>
+<div class="container">
+    <div class="title">
+        <h1>Computador</h1>
+    </div>
+    <label for="computador">Watts:</label>
+    <input type="number" id="computador"><br>
+    <label for="quantidade1">Quantidade:</label>
+    <input type="number" id="quantidade1"><br>
+    <label for="tempo1">Tempo ligado (horas por dia):</label>
+    <input type="number" id="tempo1"> 
+    <p id="result1"></p>
+</div>
+<div class="container">
+    <div class="title">
+        <h1>Impressora</h1>
+    </div>
+    <label for="impressora">Watts:</label>
+    <input type="number" id="impressora"><br>
+    <label for="quantidade2">Quantidade:</label>
+    <input type="number" id="quantidade2"><br>
+    <label for="tempo2">Tempo ligado (horas por dia):</label>
+    <input type="number" id="tempo2">
+    <p id="result2"></p>
+</div>
+<div class="container">
+    <div class="title">
+        <h1>Lâmpadas</h1>
+    </div>
+    <label for="lampadas">Watts:</label>
+    <input type="number" id="lampadas"><br>
+    <label for="quantidade3">Quantidade:</label>
+    <input type="number" id="quantidade3"><br>
+    <label for="tempo3">Tempo ligado (horas por dia):</label>
+    <input type="number" id="tempo3">
+    <p id="result3"></p>
+</div>
+<button onclick="calcular()"><h1>Calcular</h1></button>
+<div class="total">
+   <h2 id="total"></h2>
+</div>
+<div class="sugestoes">
+    <h1>Sugestões para reduzir o consumo de energia</h1>
+    <ul>
+        <li>Desligue os aparelhos da tomada quando não estiverem em uso.</li>
+        <li>Utilize lâmpadas LED, que consomem menos energia.</li>
+        <li>Evite deixar computadores ligados sem necessidade.</li>
+        <li>Ajuste as configurações de economia de energia dos seus dispositivos.</li>
+        <li>Desligue a impressora quando não estiver sendo usada.</li>
+        <li>Monitore o tempo de uso dos aparelhos diariamente.</li>
+    </ul>
+</div>
+<script src="script.js"></script>  
+</body>
+</html>
